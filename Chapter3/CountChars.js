@@ -7,20 +7,18 @@
 function countBs(string) {
 	var counter = 0;
 
-	for (var i = 0; i < string.length; i++) {
-		if (string.charAt(i) == "B")
-			counter++;
-	}
+	for (var i = 0; i < string.length; i++)
+		if (string.charAt(i) == "B") counter++;
+	
 	return counter;
 }
 
 function countChar(string, character){
 	var counter = 0;
 
-	for (var i = 0; i < string.length; i++) {
-		if (string.charAt(i) == character)
-			counter++;
-	}
+	for (var i = 0; i < string.length; i++)
+		if (string.charAt(i) == character) counter++;
+
 	return counter;
 }
 

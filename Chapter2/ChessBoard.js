@@ -15,9 +15,9 @@ var halfSize = (size % 2 == 0 ? size / 2 : (size + 1) / 2);
 var output = "";
 
 for(var row = 0; row < size; row++){
- for(var col = 0; col <= halfSize; col++){
-   output += (row % 2 == 0 ? " #" : "# ");
-   if (col == halfSize) output += "\n";
+    for(var col = 0; col <= halfSize; col++){
+        output += (row % 2 == 0 ? " #" : "# ");
+        if (col == halfSize) output += "\n";
  }
 }
 
